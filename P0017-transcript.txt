@@ -1,0 +1,1009 @@
+M040439 M040472 M040500
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeVectorPairingOneIdealMultiple:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LaurentSeriesAdaptedBasisCoordsVanishBeyondFinra:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeAddMulLogSqOfLeAddMulLog:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeAddMulLogSqOfLeAddMulLog (18s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LeAddMulLogSqOfLeAddMulLog.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LeAddMulLogSqOfLeAddMulLog.lean:17:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LeAddMulLogSqOfLeAddMulLog.lean:27:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LaurentSeriesAdaptedBasisCoordsVanishBeyondFinra (19s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LaurentSeriesAdaptedBasisCoordsVanishBeyondFinra.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeVectorPairingOneIdealMultiple (15s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LatticeVectorPairingOneIdealMultiple.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LatticeVectorPairingOneIdealMultiple.lean:8:77: Variable name `hL0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hL0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 52.05
+
+M040511
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeMulSetIntegralImage2OfForallLe:olean
+⚠ [18250/18250] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeMulSetIntegralImage2OfForallLe (17s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LeMulSetIntegralImage2OfForallLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18250 jobs).
+exit_code = 0
+elapsed_seconds = 35.42
+
+M040513 M040527 M040555
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeNatCastOfAddOneLe:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeSupKerMulOfLeSupMaximalMulSection:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftInverseOfIntegralSolutions:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeSupKerMulOfLeSupMaximalMulSection (18s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LeSupKerMulOfLeSupMaximalMulSection.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LeSupKerMulOfLeSupMaximalMulSection.lean:35:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp at this
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftInverseOfIntegralSolutions (19s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LeftInverseOfIntegralSolutions.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeNatCastOfAddOneLe (15s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LeNatCastOfAddOneLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LeNatCastOfAddOneLe.lean:17:12: `ENat.coe_ne_top` has been deprecated: Use `ENat.natCast_ne_top` instead
+
+Hint: Replace the deprecated name:
+  E̵N̵a̵t̵.̵c̵o̵e̵_̵n̵e̵_̵t̵o̵p̵E̲N̲a̲t̲.̲n̲a̲t̲C̲a̲s̲t̲_̲n̲e̲_̲t̲o̲p̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LeNatCastOfAddOneLe.lean:22:38: `ENat.coe_le_coe` has been deprecated: Use `ENat.natCast_le_natCast` instead
+
+Hint: Replace the deprecated name:
+  E̵N̵a̵t̵.̵c̵o̵e̵_̵l̵e̵_̵c̵o̵e̵E̲N̲a̲t̲.̲n̲a̲t̲C̲a̲s̲t̲_̲l̲e̲_̲n̲a̲t̲C̲a̲s̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LeNatCastOfAddOneLe.lean:23:34: `ENat.coe_le_coe` has been deprecated: Use `ENat.natCast_le_natCast` instead
+
+Hint: Replace the deprecated name:
+  E̵N̵a̵t̵.̵c̵o̵e̵_̵l̵e̵_̵c̵o̵e̵E̲N̲a̲t̲.̲n̲a̲t̲C̲a̲s̲t̲_̲l̲e̲_̲n̲a̲t̲C̲a̲s̲t̲
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 50.64
+
+M040576 M040579 M041118
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthEqKerAddRange:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthKerCokerLsmulQuotientSpanSwap:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftModMaximalSkew:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthKerCokerLsmulQuotientSpanSwap (17s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LengthKerCokerLsmulQuotientSpanSwap.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LengthKerCokerLsmulQuotientSpanSwap.lean:15:0: automatically included section variable(s) unused in theorem `GlobalTheory.ASwap.mulMap_mk`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LengthKerCokerLsmulQuotientSpanSwap.lean:33:0: automatically included section variable(s) unused in theorem `GlobalTheory.ASwap.map_mulMap_ker`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LengthKerCokerLsmulQuotientSpanSwap.lean:62:0: automatically included section variable(s) unused in theorem `GlobalTheory.ASwap.range_lsmul_eq`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftModMaximalSkew (17s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LiftModMaximalSkew.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthEqKerAddRange (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LengthEqKerAddRange.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LengthEqKerAddRange.lean:63:43: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LengthEqKerAddRange.lean:63:45: Variable name `y` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _y
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 50.8
+
+M041230 M041446 M041450
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinIndepIntBilinFormCharZeroCombinationEqZero:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndepOnPowOfIsDomainTensorPurelyInseparabl:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndependentComplexMap:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndependentComplexMap (18s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LinearIndependentComplexMap.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LinearIndependentComplexMap.lean:9:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LinearIndependentComplexMap.lean:16:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : TensorProduct R M N → Prop}
+    (z : TensorProduct R M N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) →
+      (∀ (x y : TensorProduct R M N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : TensorProduct R M N → Prop}
+    (z : TensorProduct R M N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) →
+        (∀ (x y : TensorProduct R M N), motive x → motive y → motive (x + y)) → motive z
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndepOnPowOfIsDomainTensorPurelyInseparabl (23s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LinearIndepOnPowOfIsDomainTensorPurelyInseparabl.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LinearIndepOnPowOfIsDomainTensorPurelyInseparabl.lean:13:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LinearIndepOnPowOfIsDomainTensorPurelyInseparabl.lean:49:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LinearIndepOnPowOfIsDomainTensorPurelyInseparabl.lean:55:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LinearIndepOnPowOfIsDomainTensorPurelyInseparabl.lean:56:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LinearIndepOnPowOfIsDomainTensorPurelyInseparabl.lean:58:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinIndepIntBilinFormCharZeroCombinationEqZero (15s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LinIndepIntBilinFormCharZeroCombinationEqZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 50.0
+
+M041461 M041465 M041547
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndependentKaehlerDOfAlgebraicIndependent:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndependentOfDistinctValuationLike:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralComplexInvPowAddNormSq:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralComplexInvPowAddNormSq (15s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LintegralComplexInvPowAddNormSq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndependentOfDistinctValuationLike (17s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LinearIndependentOfDistinctValuationLike.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndependentKaehlerDOfAlgebraicIndependent (13s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LinearIndependentKaehlerDOfAlgebraicIndependent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 44.95
+
+M041588 M041601 M041612
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralInvLeOfSupportCompact:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralNormPowMulLeSqrtWeightedSq:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralPositiveNegativeParts:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralPositiveNegativeParts (14s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LintegralPositiveNegativeParts.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LintegralPositiveNegativeParts.lean:37:28: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+
+Hint: Replace the deprecated name:
+  ofReal_norm_̵e̵q̵_̵e̵n̵o̵r̵m̵
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LintegralPositiveNegativeParts.lean:42:28: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+
+Hint: Replace the deprecated name:
+  ofReal_norm_̵e̵q̵_̵e̵n̵o̵r̵m̵
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LintegralPositiveNegativeParts.lean:43:10: `MeasureTheory.enorm_integral_le_lintegral_enorm` has been deprecated: Use `MeasureTheory.eNorm_integral_le_lintegral_eNorm` instead
+
+Hint: Replace the deprecated name:
+  en̵N̲orm_integral_le_lintegral_en̵N̲orm
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralNormPowMulLeSqrtWeightedSq (15s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LintegralNormPowMulLeSqrtWeightedSq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralInvLeOfSupportCompact (17s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LintegralInvLeOfSupportCompact.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LintegralInvLeOfSupportCompact.lean:18:8: `MeasureTheory.Measure.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  M̵e̵a̵s̵u̵r̵e̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 48.8
+
+M041629 M041637 M041651
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralSublevelTailLeOfFinite:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralUnitBallRayAverageLe:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.ListProdUpdateConjugate:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralUnitBallRayAverageLe (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LintegralUnitBallRayAverageLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ListProdUpdateConjugate (17s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\ListProdUpdateConjugate.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ListProdUpdateConjugate.lean:18:17: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ListProdUpdateConjugate.lean:20:74: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ListProdUpdateConjugate.lean:32:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralSublevelTailLeOfFinite (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LintegralSublevelTailLeOfFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LintegralSublevelTailLeOfFinite.lean:13:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LintegralSublevelTailLeOfFinite.lean:17:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LintegralSublevelTailLeOfFinite.lean:23:31: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LintegralSublevelTailLeOfFinite.lean:33:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 50.03
+
+M041670 M041750 M041773
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocHomAlgebraMap:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalDensitiesBoundedAlmostAll:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalFactorAtAugmentationCounitalComul:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalDensitiesBoundedAlmostAll (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalDensitiesBoundedAlmostAll.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalFactorAtAugmentationCounitalComul (29s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalFactorAtAugmentationCounitalComul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalFactorAtAugmentationCounitalComul.lean:9:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalFactorAtAugmentationCounitalComul.lean:43:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalFactorAtAugmentationCounitalComul.lean:55:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalFactorAtAugmentationCounitalComul.lean:101:24: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalFactorAtAugmentationCounitalComul.lean:111:24: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocHomAlgebraMap (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocHomAlgebraMap.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 49.97
+
+M041806 M041834 M041995
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalFreeLagrangianComplement:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalHermitianDiagonalizationUnits:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalRingPointFiniteDescent:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalRingPointFiniteDescent (15s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalRingPointFiniteDescent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalHermitianDiagonalizationUnits (17s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalHermitianDiagonalizationUnits.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalFreeLagrangianComplement (19s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalFreeLagrangianComplement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalFreeLagrangianComplement.lean:13:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalFreeLagrangianComplement.lean:22:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalFreeLagrangianComplement.lean:23:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalFreeLagrangianComplement.lean:46:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalFreeLagrangianComplement.lean:47:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 51.48
+
+M041997 M042014 M042124
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalRingPointsIdealCriterion:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalSmoothPotentialGlue:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationAwayInjectiveAtPrimeOfDvd:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalSmoothPotentialGlue (17s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalSmoothPotentialGlue.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationAwayInjectiveAtPrimeOfDvd (18s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalizationAwayInjectiveAtPrimeOfDvd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalRingPointsIdealCriterion (15s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalRingPointsIdealCriterion.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalRingPointsIdealCriterion.lean:35:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalRingPointsIdealCriterion.lean:36:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 49.38
+
+M042128 M042132 M042138
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationAwayRangeLeOfDvdOfComp:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationIntegralClosureArtinianReducedDomain:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationMaximalIdealEqSpanNilpotentArtinian:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationAwayRangeLeOfDvdOfComp (15s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalizationAwayRangeLeOfDvdOfComp.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationMaximalIdealEqSpanNilpotentArtinian (15s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalizationMaximalIdealEqSpanNilpotentArtinian.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalizationMaximalIdealEqSpanNilpotentArtinian.lean:16:22: `IsArtinianRing.isNilpotent_jacobson_bot` has been deprecated: Use `IsArtinianRing.isNilpotent_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ (R : Type u_1) [inst : Ring R] [IsArtinianRing R], IsNilpotent (Ring.jacobson R)
+instead of
+  ∀ {R : Type u_1} [inst : Ring R] [IsArtinianRing R], IsNilpotent ⊥.jacobson
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationIntegralClosureArtinianReducedDomain (68s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalizationIntegralClosureArtinianReducedDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalizationIntegralClosureArtinianReducedDomain.lean:32:46: This simp argument is unused:
+  eval₂_C
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eval₂_mul, eval₂_X, eval₂_sub, eval₂_one, map_one, mul_sub, mul_one, he.eq, sub_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalizationIntegralClosureArtinianReducedDomain.lean:32:55: This simp argument is unused:
+  eval₂_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eval₂_mul, eval₂_X, eval₂_sub, eval₂_C, map_one, mul_sub, mul_one, he.eq, sub_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalizationIntegralClosureArtinianReducedDomain.lean:83:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalizationIntegralClosureArtinianReducedDomain.lean:84:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalizationIntegralClosureArtinianReducedDomain.lean:85:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalizationIntegralClosureArtinianReducedDomain.lean:106:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalizationIntegralClosureArtinianReducedDomain.lean:108:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalizationIntegralClosureArtinianReducedDomain.lean:109:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 99.88
+
+M042144 M042147 M042149
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationProjectiveKernelFinite:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationQuotientComapEquiv:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationSubalgebraFrac:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationQuotientComapEquiv (14s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalizationQuotientComapEquiv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationSubalgebraFrac (15s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalizationSubalgebraFrac.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationProjectiveKernelFinite (13s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalizationProjectiveKernelFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 44.97
+
+M042151 M042159 M042161
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationTensorMapInjectiveCokerKilled:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizedModuleMemAnnSpanSmulTop:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizedPresentationEvalQuotientFraction:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizedModuleMemAnnSpanSmulTop (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalizedModuleMemAnnSpanSmulTop.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizedPresentationEvalQuotientFraction (18s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalizedPresentationEvalQuotientFraction.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationTensorMapInjectiveCokerKilled (13s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocalizationTensorMapInjectiveCokerKilled.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocalizationTensorMapInjectiveCokerKilled.lean:31:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 46.75
+
+M042170
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyConstantCompactSupportInvariantOpenAddSub:olean
+⚠ [18250/18250] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyConstantCompactSupportInvariantOpenAddSub (18s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocallyConstantCompactSupportInvariantOpenAddSub.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocallyConstantCompactSupportInvariantOpenAddSub.lean:7:8: Overlapping instance parameters in `locallyConstant_compactSupport_invariant_openAddSubgroup`:
+
+⚠️ `[IsTopologicalAddGroup X]` and `[NonarchimedeanAddGroup X]` each imply `[ContinuousAdd X]` and `[ContinuousNeg X]`.
+💡️ Of these, `[IsTopologicalAddGroup X]` and `[NonarchimedeanAddGroup X]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+Build completed successfully (18250 jobs).
+exit_code = 0
+elapsed_seconds = 34.84
+
+M042188 M042233 M042235
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyIntegrableRep:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogCardEqFinsumLengthLocalizedMaximal:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogCardQuotSpanEqFinsumLogNormEmbeddings:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogCardEqFinsumLengthLocalizedMaximal (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LogCardEqFinsumLengthLocalizedMaximal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogCardEqFinsumLengthLocalizedMaximal.lean:36:26: `SetLike.not_le_iff_exists` has been deprecated: Use `IsConcreteLE.not_le_iff_exists` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.not_le_iff_exists` to `IsConcreteLE.not_le_iff_exists x`).
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵L̵i̵k̵e̵.̵n̵o̵t̵_̵l̵e̵_̵i̵f̵f̵_̵e̵x̵i̵s̵t̵s̵I̲s̲C̲o̲n̲c̲r̲e̲t̲e̲L̲E̲.̲n̲o̲t̲_̲l̲e̲_̲i̲f̲f̲_̲e̲x̲i̲s̲t̲s̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogCardEqFinsumLengthLocalizedMaximal.lean:105:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogCardEqFinsumLengthLocalizedMaximal.lean:106:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogCardQuotSpanEqFinsumLogNormEmbeddings (19s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LogCardQuotSpanEqFinsumLogNormEmbeddings.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogCardQuotSpanEqFinsumLogNormEmbeddings.lean:31:10: `Ideal.eq_bot_of_comap_eq_bot` has been deprecated: Use `Ideal.eq_bot_of_under_eq_bot` instead
+
+Hint: Replace the deprecated name:
+  I̵d̵e̵a̵l̵.̵e̵q̵_̵b̵o̵t̵_̵o̵f̵_̵c̵o̵m̵a̵p̵_̵e̵q̵_̵b̵o̵t̵I̲d̲e̲a̲l̲.̲e̲q̲_̲b̲o̲t̲_̲o̲f̲_̲u̲n̲d̲e̲r̲_̲e̲q̲_̲b̲o̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogCardQuotSpanEqFinsumLogNormEmbeddings.lean:41:10: `AlgHom.coe_ringHom_injective` has been deprecated: Use `AlgHom.toRingHom_injective` instead
+
+Hint: Replace the deprecated name:
+  A̵l̵g̵H̵o̵m̵.̵c̵o̵e̵_̵r̵i̵n̵g̵H̵o̵m̵_̵i̵n̵j̵e̵c̵t̵i̵v̵e̵A̲l̲g̲H̲o̲m̲.̲t̲o̲R̲i̲n̲g̲H̲o̲m̲_̲i̲n̲j̲e̲c̲t̲i̲v̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogCardQuotSpanEqFinsumLogNormEmbeddings.lean:54:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogCardQuotSpanEqFinsumLogNormEmbeddings.lean:56:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogCardQuotSpanEqFinsumLogNormEmbeddings.lean:58:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogCardQuotSpanEqFinsumLogNormEmbeddings.lean:60:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyIntegrableRep (17s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LocallyIntegrableRep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocallyIntegrableRep.lean:13:0: automatically included section variable(s) unused in theorem `GlobalTheory.LocRep.rep_zero`:
+  [TopologicalSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocallyIntegrableRep.lean:21:0: automatically included section variable(s) unused in theorem `GlobalTheory.LocRep.rep_add`:
+  [TopologicalSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocallyIntegrableRep.lean:38:0: automatically included section variable(s) unused in theorem `GlobalTheory.LocRep.rep_sub`:
+  [TopologicalSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LocallyIntegrableRep.lean:85:0: automatically included section variable(s) unused in theorem `GlobalTheory.LocRep.locallyIntegrable_rep`:
+  [InnerProductSpace ℂ K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 51.19
+
+M042249
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogConcaveMultiplicativeGrowthBound:olean
+⚠ [18250/18250] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogConcaveMultiplicativeGrowthBound (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LogConcaveMultiplicativeGrowthBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogConcaveMultiplicativeGrowthBound.lean:8:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogConcaveMultiplicativeGrowthBound.lean:64:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+Build completed successfully (18250 jobs).
+exit_code = 0
+elapsed_seconds = 33.62
+
+M042299 M042357 M042365
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogHeightBoundFromInequality:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogNormSqGradientIdentity:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogOfExpContinuity:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogNormSqGradientIdentity (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LogNormSqGradientIdentity.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogNormSqGradientIdentity.lean:23:13: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogNormSqGradientIdentity.lean:31:107: This simp argument is unused:
+  Complex.smul_re
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Complex.mul_re, Complex.conj_re, Complex.conj_im, Complex.I_re, Complex.I_im, Complex.mul_im,
+    Complex.smul_im]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogNormSqGradientIdentity.lean:31:124: This simp argument is unused:
+  Complex.smul_im
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Complex.mul_re, Complex.conj_re, Complex.conj_im, Complex.I_re, Complex.I_im, Complex.mul_im,
+    Complex.smul_re]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogOfExpContinuity (17s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LogOfExpContinuity.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LogOfExpContinuity.lean:41:16: `continuousOn_iff_continuous_restrict` has been deprecated: Use `continuousOn_iff_continuous_domRestrict` instead
+
+Hint: Replace the deprecated name:
+  continuousOn_iff_continuous_r̵d̲o̲m̲R̲estrict
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogHeightBoundFromInequality (24s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LogHeightBoundFromInequality.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 57.91
+
+M042371 M042392 M042393
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogPowerSqrtLeCubeRoot:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSingularityBallIntegralBound:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSizeBoundsClassNumberVolume:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSingularityBallIntegralBound (15s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LogSingularityBallIntegralBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogPowerSqrtLeCubeRoot (14s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LogPowerSqrtLeCubeRoot.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSizeBoundsClassNumberVolume (43s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LogSizeBoundsClassNumberVolume.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 59.69
+
+M042398 M042456 M042464
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogThetaWeightSizeLe:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerBoundAlongResidues:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerBoundNumericalEnd:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerBoundAlongResidues (21s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LowerBoundAlongResidues.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerBoundNumericalEnd (22s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LowerBoundNumericalEnd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogThetaWeightSizeLe (18s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LogThetaWeightSizeLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 56.66
+
+M042477 M042504 M042543
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerUnitriangularMulUpperTriangularOfIsUnitLead:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LtNatCastOfAddOneLtSucc:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapComapMaximalIdealEqOfFormallyUnramified:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LtNatCastOfAddOneLtSucc (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LtNatCastOfAddOneLtSucc.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapComapMaximalIdealEqOfFormallyUnramified (17s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\MapComapMaximalIdealEqOfFormallyUnramified.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapComapMaximalIdealEqOfFormallyUnramified.lean:13:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapComapMaximalIdealEqOfFormallyUnramified.lean:20:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapComapMaximalIdealEqOfFormallyUnramified.lean:21:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapComapMaximalIdealEqOfFormallyUnramified.lean:23:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapComapMaximalIdealEqOfFormallyUnramified.lean:40:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapComapMaximalIdealEqOfFormallyUnramified.lean:41:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerUnitriangularMulUpperTriangularOfIsUnitLead (21s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LowerUnitriangularMulUpperTriangularOfIsUnitLead.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LowerUnitriangularMulUpperTriangularOfIsUnitLead.lean:29:10: `Matrix.det_of_lowerTriangular` has been deprecated: Use `Matrix.det_of_isLowerTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵l̵o̵w̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲L̲o̲w̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LowerUnitriangularMulUpperTriangularOfIsUnitLead.lean:100:10: `Matrix.det_of_lowerTriangular` has been deprecated: Use `Matrix.det_of_isLowerTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵l̵o̵w̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲L̲o̲w̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LowerUnitriangularMulUpperTriangularOfIsUnitLead.lean:107:40: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵u̵p̵p̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲U̲p̲p̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 54.88
+
+M042505
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.LuDecompositionUnitriangularUnique:olean
+⚠ [18250/18250] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LuDecompositionUnitriangularUnique (13s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\LuDecompositionUnitriangularUnique.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LuDecompositionUnitriangularUnique.lean:31:8: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  det_of_u̵i̲s̲U̲pperTriangular
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LuDecompositionUnitriangularUnique.lean:32:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18250 jobs).
+exit_code = 0
+elapsed_seconds = 30.78
+
+M042548 M042552 M042574
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapDomainRelationLiftCommutingSquare:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapEqZeroOfCommuteDoubling:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapMkOfComp:olean
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapMkOfComp (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\MapMkOfComp.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapMkOfComp.lean:13:38: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapMkOfComp.lean:13:58: Variable name `inst_1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapMkOfComp.lean:13:81: Variable name `inst_2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapMkOfComp.lean:13:104: Variable name `inst_3` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_3
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapMkOfComp.lean:13:455: Variable name `inst_4` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_4
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapMkOfComp.lean:13:478: Variable name `inst_5` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_5
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapMkOfComp.lean:13:501: Variable name `inst_6` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_6
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapMkOfComp.lean:13:525: Variable name `inst_7` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_7
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapMkOfComp.lean:13:548: Variable name `inst_8` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_8
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapMkOfComp.lean:13:572: Variable name `inst_9` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_9
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapMkOfComp.lean:13:597: Variable name `inst_10` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_10
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapMkOfComp.lean:13:624: Variable name `inst_11` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_11
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18251/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapEqZeroOfCommuteDoubling (19s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\MapEqZeroOfCommuteDoubling.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapDomainRelationLiftCommutingSquare (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\MapDomainRelationLiftCommutingSquare.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+exit_code = 0
+elapsed_seconds = 49.75
+
+M042562
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapHaarEqOfLattice:olean
+⚠ [18250/18250] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapHaarEqOfLattice (15s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\MapHaarEqOfLattice.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapHaarEqOfLattice.lean:13:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapHaarEqOfLattice.lean:14:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapHaarEqOfLattice.lean:17:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18250 jobs).
+exit_code = 0
+elapsed_seconds = 32.39
+
+M042582 M042583
+$ F:\rh1121-port\lean-4.36.0-windows\bin\lake.exe build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapOfRealAdd:olean +Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapOfRealOne:olean
+⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapOfRealAdd (16s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\MapOfRealAdd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapOfRealOne (17s)
+warning: src\Development\AbelianVarietyTheory\Proofs\DivisorProofs\MapOfRealOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapOfRealOne.lean:6:152: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (18251 jobs).
+exit_code = 0
+elapsed_seconds = 35.33
+
+Module ID / tested source SHA-256 / built .olean SHA-256
+M040439 63729b0985f93742e33122b3475146c1bc5643c0893840770ca6e49219cb3951 6f6d2e8414353f59b19b8c92ca102ff1d2de65a11410a2198e107157d0a12bea
+M040472 5964be0f3160917951027034ce68e873b9ced9c455417d165662f018064dbfb6 250d534974e71260b0437c23628a26798f8c0b62cb43e3ee85a31a7d4b8a8eaa
+M040500 c49d2501255fc8f5c2fef1f58cd2c25c2a7549410f14d7cc47d2b99779cbb6e7 1786a5ed8de3b87eb7ca981fdb9bf66fabb7cbc687769d93c53df77a12761656
+M040511 a529f12b74b6cb38045a28f8973fa751202ff43b1f558320b9dcd606ff665c08 0603a1599787aa378b7eeb6756fa43d9b509eb1a468dcac2b05284bcfbda627f
+M040513 1a0d5bccb1c850a6132cbb2714e3c12fef110c4b528310fdefa6d7e2e0efedf2 88af30c0ddf58ae6126d8e7a2b1f46e382aec636018e1d774bf6dac7c40f0f1f
+M040527 71027d299a1d1b9d2f28281fc69081a82adf77b54af317add47d81751db1219d 2ff54b0841e8f1273981b029870aa1014cc926c92b67cb484eb9575d05d41530
+M040555 e8069f4c98069917dc16203fd4e195767f65fbf42152e30829b31550b9285413 73d9b4332def58fdac0c3976cc9ecf0933a7681e92b36065bebb87153cc298dc
+M040576 2432243dcfebe4190f262fc0fdb222800a6929fafb907f73a811898832585695 f55e90c46b188ae778f0ae471788ed322e92f3fccad3b5d48779d30bf143a2f2
+M040579 15b8255b9e54d6065c5088c9ac1c148f436bd2614887cf664468cfaf3b66db52 152470656b1df39dd249c7f5f9cff453bca116344b72120e790e61b3e61cf38b
+M041118 43b5a3f077cca57016575ca91c411305fb11cfea9b1a6326f7c080f6c552e9f6 034326d2329ed979e600713faf811f173a74976638882099439dfbad8403564d
+M041230 11a557ee04893a29ead288115bf0b3440b8ba0e1e30afd18e58714c178add11f 4d7e568e30dab2645b82f845ec41d7ed622a6dc5632fef9fb85ca72bae4bdc13
+M041446 b3d85b4d73d79abce6088c05bda1fdae1c29efad94d84288bff7ae05d5fbe8ff 012a80d7f98686a4b9c9eee4ce0b9ce59220c94c6785ceea45c795dd98c04c80
+M041450 218aed1630ae2f96443bf3fd4e54c8df6949bb5ba38b70247b31c027e2ec3bae 799550a9371f839f011fddcdfcff62d90f590b9f537f26c238cc0b7740307c75
+M041461 80eff82f3eb3b73c235493ccc343cb8c0d828fc5409dbea973f918bc668eb545 4426ec674cb504b001975711d4c42946044c0025c68d792d287b575836990355
+M041465 8d60bc66f4f25f8b169c91941425b47ca3010c6da3b6ec88128d3695a80089a4 b1ff14124c1a68948c9c7f34640daf0d2be88533651b6836a20c296a7e9d6122
+M041547 4a91f27de2753cc181e5a8d07599c6c80424b4e7b5bc3dd8129564afde1b5971 1645f9750d1fb6ba9fe37e314c3e6b576312bc011a664697df9a6f6ebce764d7
+M041588 4c2c8e870e71ddf8030580b26fabea5027ca0c0e6988616500cb27273f018a6f b36a94d6f3d091b812c5b89479f6ec59e8e9a4c2d6bd120d08a16c0e413772d0
+M041601 0c028df3060b0c724c875f5f3858834f986ebb28d42efabf0db5c6faa69045f6 64fc0c92a0e3be17ec1992fa40e7a5d4e64b792fe592fe3ddaa955d24ee8d2dc
+M041612 e2882f89cd761c10f0ad7451278aab61705db7a37b06643a2acafdbad974ae77 4355e9d4702bbc39fcee2d84c02e2a1ea3a89c075033fae7c28c3538b88a1e27
+M041629 3bc9acdeff0fa0b3c0b96b5c9fec2f25fd8c4d028ef4d2dd7054d2d5cb1199bd 8c2bc38a3d021048b6e0e0d255b57d4f9c04d9f341ac3edc293454f14cf90a0c
+M041637 cc407038d13ef66a1372bdb992e6a1e512f982d1dc6b972cf58c6736e13d95c9 bb198f56132304c3ce9d46de74a70188b12bc84783dc0c0d1ee7fa80db8e4dc2
+M041651 d668c40c079e071845da64685b8460b93f1492dcaaed9bdfc6cdecec1f77202c 95359dca4fe9729316cd5494e3629f3dd72e7ee5b79ddb7d2af4132142658bb5
+M041670 216e26093f64d89281ccd924e0bb4283d376d159a71091a12c75d2caeec09b40 c36354f936df60e0c911193be69ebcf0f77b50050cebe341eeb8d89465e1ebcb
+M041750 76759197d10472f0f636d515407e5fe375b3357bdbe7cb8250d677911f38048b d821a4bda9bf3ab99d95942c4c309b8bbb93cd73bac55ba8e529b5bbba042918
+M041773 121ce3dae81b9519c0e1b11d856d3f2aba6b56554504b588ad80697397cb29e5 0b9949b7c87eafd7caa78898d34eb1666668cfdc9e27cd30c205fab013ef4e72
+M041806 e6107e713d6cb4a4c407574c623d8d483465f4450fa767878f9c23eb13c572e6 cb4908021b1ab9694743782e4fc74b88ee5240c9e6d5f9c43f559d62cd8c1597
+M041834 b19b77ce13e665de2ba37748a4384a21ca309ac717b0e5b1d8cbc33cc5d679fc 13d3e80b79b45b457222c2fcf51bc1a5ae99f56329fea0256643a63aaa34546e
+M041995 deaba7f1ba5ebe94cb2b9400d201b351e53c136f1a2b0ab075bd9b6917847725 ebd188adb93ca4856f1462be0ac2396e26679dd85c6b93ae863516b534ae159b
+M041997 3b3d1d4df168eefcf9aa337c3445a7e59b6ffd47e80b8c9279bd717c768cc73b 35852d27890633cdbdc1292499cfb4e145ae74746f163a0138518658b46a4999
+M042014 519b887130379259fdef4b4f44825df5dbc0dc3c828d94b953cb3973044abd29 af2f59362eccd494a05def6a786c7aa9e53d25b3227254a6e55c7ab17d71b6fb
+M042124 b1767ebf1d2a01141d2c1255b403d04e5c755f0ae79c252ccd8c112015153960 6553b2ad119085f949a78ff617bb2c22ad57fff249f6dfa2a1c8ca1ee156f065
+M042128 737bce029e8bdb569ffe512dde1fe7913a8be5fc2db420194e1f354d7f594fe8 c7f00ce3a485294c2e095fb25d5a2eef6e93f39e306f0a4685446f1d01d1c712
+M042132 e75174213c19f97d1286c350b4e0cacadc42f5ca115caaa86093dfd6037c462f 4d69081a7cde06cb04b9f47b18c7e4230cba38ef41ab45a62802103b6f39424a
+M042138 68c3852f804e825088099c925fc787eb28049b8c24bed114e6a97ad254739dcf a324dfda8df605b1051394c4a8a6a92191563ba8e475c688c3e62c73f42811c6
+M042144 26b18b767f934b50acd9b4c246ebc70f4bf126c25882dad2bd5bcae98f1dde52 aa62d634fcb0e17c181d526d5016798a76046a36dbf126213402fc0eae27f408
+M042147 0c3347241a280197fa5247d935aee6fa433e503b48ef7cea63bc48f03e4c85fe 5301186cfbb87ec6b21b940c83b09a329184a5a210251977d57d588766f9a6fc
+M042149 d5cae391fc3fff562948986081740f2ad34b99548e338c1462564237861e98e1 22041a9ed5c01886ddc38e72105b449efdf2cf5cc3905fe421a10efc134078a1
+M042151 aff7497b547736fff51bda8b831e54972a1a53b9a556cbf46f9c899ce5bc42d7 3cd86d3cc44c08d7813ba32d4ad7f4f4b59c14264ca0a0258efa73c7b557015b
+M042159 41fb166a00ddfb0f2a085dee431b2a6428749275c158f827a26d714111ec11cc 26b0963454744533f1ec6fa95c2e08f6af3a4f58294078d2a672b6032d2b5b7b
+M042161 ea2e4a3ac672a60c98b580e5c235b36fd4d4f351edf1f1c3599c879cf3c038d7 7c74cd127d8777754b8ad35f8140e2561afeef4c0ad07ab17e99847f477e3795
+M042170 dc917a9a07140fe34978e7c57741fe835d7cd00cc0a1991442f18f7f9d52d826 03253e622132bebd23a786f9d47cc24ee3670cecfa03b87cb46ca08c0b95a44a
+M042188 33d37e0fb4cb8ee78d063ad2ea8c065263674874810cc775cdac88a66a789cde 9acee0577b9c96e2828028d3235089b956a6471f7f79fda947dea090a046e183
+M042233 fff8e90b01809c12b9977a0b8144407c0bc07894f1126fdafd9db3a3896f3dff 65c7e99bd6ea6e46cc944188d8ca203f80d94dc777e43ec250401b9d7192b485
+M042235 49149ee69bcb1eb8551a3e01339fc86a73310670f427b6fc2ebd0b6d567fe566 a04fd7aeeb7fec00ab4c00190b16c5d75a5058336c89db95ef111f716f56e1dd
+M042249 11219517ad57d2e5894ce93ab6eb24d58c23d92f8c68903d5441d6c851c7aa95 e77dface6d179b0aaa7d904bfc7b93c9a5d95ebdd7c7ee27cbafde3fc6b305fa
+M042299 167ba71dc0c382b8c725bfab526941b636b56bae9c60741610eaba901fc7b4a9 535020163674f21bf9aff02ecfcfab55141de4a016d9c2c389201e52019c1624
+M042357 b6eda1ef075452ee0f50d264bd8744e04e3e6882dc793c550a063dfa259d2fc5 7c0e25c74b888c05f01b04e9237ba293ec792cc3c5d65db2f614128c1872074e
+M042365 121fe86f852a62d1b308dc60e988626ebb6099a7bdc3574bf52f3e4ef75d90ac 0063f481e0eac35eec75a4251f82f13fbf886719301f7c1f015ab17d68e0e19f
+M042371 9fbc40e110d9f27605bc6cb05bb487dbd8fc96578b39a8cc3fdc48526139b9d6 fd6d6a32432a9020837b85645b710eeb21e09271c7181772b030fc098f268806
+M042392 820cf11dca418c0dd3d24f7c20682e5383990006952b8f4ae7fc54a9a0f9afe2 10bde755eb6a0a81a64638ca8f59dded3463f8b8c3c24046b1878938b30df235
+M042393 4aac96d831c7702e3a0a8755282f028a87050e5f2caf7ae59b11cf3ac88b120e e3ee3af18f425945a90b1e19b662e56bf22474e4acc11af340db252da65fcb59
+M042398 0f36d28d96ac3643e9527455eb6caa87ac462108c8e22607c33eb8d9804be5e6 633fd98b42045609eb927ed29a917b81ad57b9b602087a093b9e2fc448db2d3f
+M042456 d5dd1862318e37963b34a2e3c3886e2e3a8f4b6ca4372aa8d53fe08e1e0b79af 248fbd638b566a9b7117e48229df609206b5a85e64f39fe6c3f73279daac13f3
+M042464 92c2808ffcf9545c3e7a5c2e26eebffed27325c9b21c6a055b5f2e96524d22e9 da4d7b93e56b78a4e670ee4aeed8aa12e169794b6fa75b4736cce17127e59b6e
+M042477 4e3fec1199773d738e5f06acc5e3a78346c6388fe391e85673c9f3bd3d17e7a4 b76bd979c5e99120e64bb7a7c5c2cfa1d495a0f8c7c3ee806c1ae388a5f34851
+M042504 4ff32f43bd69dfad3c3da8d20cb4a0fa7e84bd1bc16cfacffc0937daa4c2afdd 87eceda86fa35f9b08757a9be2cbcc562e1813a809139f192bb6a320902d6b5d
+M042505 1a72890171a1db2b6661c5919bc12bd37735f8b31885956a93abdb1d27c49ef3 8413cb36e5508913360f2b8af53e813e4aecef82748f0b02565a96139de38f73
+M042543 b5b2c04e94fd211306e1d3dd96ece9660a776421608ca1f3fdba27b5b76b3f92 c04ead95b169c88bdcb6d3aba300c2c386039df7e68353060840a70a9c8d4060
+M042548 16eb475cdd8271b2442657916206d9bd1eca362c7a4d98d6e4da07950b97ec19 bcc4bcba7e337df44c9fcf864f663859263e17b2230f3eb474556e4bb2bb8fa4
+M042552 0bf04b55e76d7be3bab1203927255beb5ac9f24400a2ea9f00dc31fb4026ba57 c9495c90a8a0d44ae52b6c35c49ebe6675d664b5ac38d0ec83cfc4aca39d0eef
+M042562 9ebc1518051dedc942b5014e8ff4f66e897918c2d9f93a82f3cc51bf0f762f1a caa00ed821e157db0d630ffde867b81da1468338cf3f751437ea77e8858247d1
+M042574 8088ffc3e05a3a8668120629efd9e37e925fd14f5e6d9aa07e78f5195d04b250 b5aef5ba50b27e9bc7eace91d9d3f078674c8e7d3ec4d3c56571b9425e109833
+M042582 4960638153ad1f37d803b9432c41dc4ee3c2462f7783c26b65b61d46f1ae030b 3cb8cc438b6a156153548eb5b4df14b2208117ca6670ed2f58030a10903b4edb
+M042583 49ba3593f6c5e65bb189f7032d8b3069cfb7825241d8fb68bfc04189adf44716 108632411a567ecdb314e044f1642b8a5a9064013e03ae70a2b4c5a5a26ee95c
